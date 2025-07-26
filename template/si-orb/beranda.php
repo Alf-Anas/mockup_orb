@@ -8,28 +8,28 @@
       "title" => "KELEMBAGAAN",
       "description" => "",
       "bg" => "bg-light-primary",
-      "url" => "kelembagaan.php"
+      "url" => "kelembagaan-dasbor.php"
     ],
     [
       "icon" => "briefcase",
       "title" => "ANJAB",
       "description" => "(Analisis Jabatan)",
       "bg" => "bg-light-secondary",
-      "url" => "anjab.php"
+      "url" => "anjab-dasbor.php"
     ],
     [
       "icon" => "activity",
       "title" => "RBBK",
       "description" => "(Reformasi Birokrasi dan Budaya Kerja)",
       "bg" => "bg-light-warning",
-      "url" => "rbbk.php"
+      "url" => "rbbk-dasbor.php"
     ],
     [
       "icon" => "settings",
       "title" => "TLPP",
       "description" => "(Tata Laksana dan Pelayanan Publik)",
       "bg" => "bg-light-success",
-      "url" => "tlpp.php"
+      "url" => "tlpp-dasbor.php"
     ]
   ];
   ?>
