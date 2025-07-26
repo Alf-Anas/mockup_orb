@@ -116,7 +116,7 @@
                              <a href="./admin-tambah-pengguna.php?=<?= urlencode($user['username']) ?>">
                                <i data-feather="edit" style="width: 18px;"></i>
                              </a>
-                             <a href="#">
+                             <a class="trash-3" href="#!">
                                <i data-feather="trash" style="width: 18px;"></i>
                              </a>
                            </div>
