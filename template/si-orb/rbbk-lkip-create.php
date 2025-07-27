@@ -66,7 +66,7 @@
 
                    <div class="col-12">
                      <label class="form-label" for="validationTextarea">Keterangan</label>
-                     <textarea class="form-control" id="validationTextarea" placeholder="Keterangan/Catatan Singkat" required="" rows="2">Tuliskan summary dari file LKIP</textarea>
+                     <textarea class="form-control" id="validationTextarea" placeholder="Keterangan/Catatan Singkat" required="" rows="2"></textarea>
                    </div>
 
                    <div class="col-12">
@@ -76,8 +76,7 @@
 
                    <div class="col-12">
                      <label class="form-label" for="validationTextarea">Ikhtisar</label>
-                     <textarea class="form-control" id="validationTextarea" placeholder="Enter quisionare details" required="" rows="4">Tuliskan summary dari file LKIP</textarea>
-                     <div class="invalid-feedback">Please enter your quisionare details.</div>
+                     <textarea class="form-control" id="validationTextarea" placeholder="Ikhtisar/Ringkasan" required="" rows="4"></textarea>
                    </div>
 
                    <div class="col-12">
