@@ -55,17 +55,66 @@
 
                  <div class="form-group">
                    <label class="col-form-label">Hak Akses</label>
-                   <ol class="list-group list-group-numbered scroll-rtl">
-                     <li class="list-group-item d-flex align-items-start flex-wrap">
-                       <div class="ms-2 me-auto">RBBK:VIEW</div>
-                     </li>
-                     <li class="list-group-item d-flex align-items-start flex-wrap">
-                       <div class="ms-2 me-auto">RBBK:EDIT</div>
-                     </li>
-                     <li class="list-group-item d-flex align-items-start flex-wrap">
-                       <div class="ms-2 me-auto">PETA:ADMIN</div>
-                     </li>
-                   </ol>
+                   <div class="form-check">
+                     <input class="form-check-input" type="checkbox" checked disabled>
+                     <label class="form-check-label" for="akses3">ADMIN:MANAGE-USER</label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" type="checkbox" checked disabled>
+                     <label class="form-check-label" for="akses3">KELEMBAGAAN:PE-PD</label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" type="checkbox" checked disabled>
+                     <label class="form-check-label" for="akses3">KELEMBAGAAN:PE-ORB</label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" type="checkbox" checked disabled>
+                     <label class="form-check-label" for="akses3">KELEMBAGAAN:KO-PD</label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" type="checkbox" checked disabled>
+                     <label class="form-check-label" for="akses3">KELEMBAGAAN:KO-ORB</label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" type="checkbox" checked disabled>
+                     <label class="form-check-label" for="akses3">ANJAB:PD-OPERATOR</label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" type="checkbox" checked disabled>
+                     <label class="form-check-label" for="akses3">ANJAB:PD-PIMPINAN</label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" type="checkbox" checked disabled>
+                     <label class="form-check-label" for="akses3">ANJAB:ORB-VALIDATOR</label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" type="checkbox" checked disabled>
+                     <label class="form-check-label" for="akses3">ANJAB:ORB-PIMPINAN</label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" type="checkbox" checked disabled>
+                     <label class="form-check-label" for="akses2">RBBK:OPERATOR</label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" type="checkbox" checked disabled>
+                     <label class="form-check-label" for="akses2">RBBK:EDITOR</label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" type="checkbox" checked disabled>
+                     <label class="form-check-label" for="akses1">RBBK:VERIFIKATOR</label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" type="checkbox" checked disabled>
+                     <label class="form-check-label" for="akses2">RBBK:PIMPINAN</label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" type="checkbox" checked disabled>
+                     <label class="form-check-label" for="akses3">TLPP:PD</label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" type="checkbox" checked disabled>
+                     <label class="form-check-label" for="akses3">TLPP:ORB</label>
+                   </div>
                  </div>
                </div>
              </div>
