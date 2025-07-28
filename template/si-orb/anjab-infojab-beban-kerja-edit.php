@@ -31,26 +31,47 @@
      <div class="row">
        <div class="col-sm-12">
          <div class="card">
+           <div class="card-header pb-0">
+             <h5>Detail Jabatan</h5>
+           </div>
            <div class="card-body">
-             <div class="blog-single">
-               <div class="blog-box blog-details">
-                 <div class="blog-details">
-                   <ul style="display: flex; gap: 1rem; margin-top: 1rem;">
-                     <li style="border-right: 1px solid #898989; padding-right: 1rem;">15 July 2025</li>
-                     <li style="border-right: 1px solid #898989; padding-right: 1rem;">
-                       <i class="icofont icofont-user"></i> Perangkat Daerah
-                     </li>
-                     <li>
-                       <span class="badge bg-warning">Dalam Pengerjaan / Perbaikan</span>
-                     </li>
-                   </ul>
-                   <div>
-                     Work In Progress
+             <form>
+               <div class="mb-3">
+                 <label class="form-label">Nama Jabatan</label>
+                 <input type="text" class="form-control" value="Kepala Subbagian Umum" disabled>
+               </div>
+               <div class="mb-3">
+                 <label class="form-label">Kode Jabatan</label>
+                 <input type="text" class="form-control" value="JBT-00123" disabled>
+               </div>
+               <div class="mb-3">
+                 <label class="form-label">Perangkat Daerah</label>
+                 <input type="text" class="form-control" value="Dinas Pendidikan" disabled>
+               </div>
+             </form>
 
-                   </div>
-                 </div>
+             <div class="d-flex justify-content-end mt-3">
+               <a href="./anjab-info-jabatan-pd-operator-view.php" class="btn btn-primary btn-sm">Selengkapnya</a>
+             </div>
 
-
+           </div>
+         </div>
+       </div>
+       <div class="col-md-12">
+         <div class="card">
+           <div class="card-header pb-0">
+             <h5>Analisis Beban Kerja</h5>
+           </div>
+           <div class="card-body">
+             <div class="col-md-12">
+               <?php
+                $editorId = 'editor8';
+                $toolbarId = "toolbar8";
+                $editorContent = "";
+                include './layout/wysiwyg.php';
+                ?>
+               <div class="text-end mt-1">
+                 <button type="button" class="btn btn-success">Simpan</button>
                </div>
              </div>
            </div>

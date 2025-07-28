@@ -31,62 +31,89 @@
      <div class="row">
        <div class="col-sm-12">
          <div class="card">
+           <div class="card-header">
+             <h5>Form Info Jabatan</h5>
+           </div>
+           <div class="card-body">
+             <form class="row g-3 needs-validation" novalidate="">
+               <div class="col-md-8">
+                 <label class="form-label" for="projectName">Nama Jabatan</label>
+                 <select class="form-select" id="projectPriority" required="">
+                   <option selected="" disabled="" value="">Choose...</option>
+                   <option>A</option>
+                   <option>B</option>
+                 </select>
+                 <div class="valid-feedback">Looks good!</div>
+               </div>
+               <div class="col-md-8">
+                 <label class="form-label" for="projectName">Kode Jabatan</label>
+                 <input class="form-control" id="projectName" type="text" placeholder="Kode Jabatan" required="">
+                 <div class="valid-feedback">Looks good!</div>
+               </div>
+               <div class="col-md-8">
+                 <label class="form-label" for="projectName">Unit Kerja</label>
+               </div>
+               <div class="col-md-8">
+                 <table class="table">
+                   <tr>
+                     <td>A. JPT Utama</td>
+                     <td><input class="form-control" id="projectName" type="text" placeholder="" required=""></td>
+                   </tr>
+                   <tr>
+                     <td>B. JPT Madya</td>
+                     <td><input class="form-control" id="projectName" type="text" placeholder="" value="Sekda DKI Jakarta"></td>
+                   </tr>
+                   <tr>
+                     <td>C. JPT Pratama</td>
+                     <td> <select class="form-select" aria-label="Select parent category">
+                         <option selected="">All</option>
+                         <option value="1">PUPR SDA</option>
+                         <option value="2">PUPR Bina Marga</option>
+                       </select>
+                     </td>
+                   </tr>
+                   <tr>
+                     <td>D. Administrator</td>
+                     <td><input class="form-control" id="projectName" type="text" placeholder="" required=""></td>
+                   </tr>
+                   <tr>
+                     <td>E. Pengawas</td>
+                     <td><select class="form-select" aria-label="Select parent category">
+                         <option selected="">Nama Jabatan</option>
+                         <option value="1">PUPR SDA</option>
+                         <option value="2">PUPR Bina Marga</option>
+                       </select></td>
+                   </tr>
+                   <tr>
+                     <td>F. Pelaksana</td>
+                     <td><input class="form-control" id="projectName" type="text" placeholder="" required=""></td>
+                   </tr>
+                   <tr>
+                     <td>G. Jabatan Fungsional</td>
+                     <td><input class="form-control" id="projectName" type="text" placeholder="" required=""></td>
+                   </tr>
+                 </table>
+               </div>
+               <div class="col-12">
+                 <label class="form-label" for="validationTextarea">Ikhtisar Jabatan</label>
+                 <textarea class="form-control" id="validationTextarea" placeholder="Enter quisionare details" required="" rows="4"></textarea>
+                 <div class="invalid-feedback">Please enter ikhtisar jabatan</div>
+               </div>
+             </form>
+
+           </div>
+         </div>
+       </div>
+
+       <div class="col-sm-12">
+         <div class="card">
            <div class="card-body">
              <div class="blog-single">
                <div class="blog-box blog-details">
                  <div class="blog-details">
-                   <ul style="display: flex; gap: 1rem; margin-top: 1rem;">
-                     <li style="border-right: 1px solid #898989; padding-right: 1rem;">15 July 2025</li>
-                     <li style="border-right: 1px solid #898989; padding-right: 1rem;">
-                       <i class="icofont icofont-user"></i> Perangkat Daerah
-                     </li>
-                     <li>
-                       <span class="badge bg-warning">Dalam Pengerjaan / Perbaikan</span>
-                     </li>
-                   </ul>
                    <div>
                      <!-- FORM INFO JABATAN -->
                      <div class="form-section">
-                       <div class="section-title">Form Info Jabatan</div>
-
-                       <div class="mb-3">
-                         <label class="form-label">1. Nama Jabatan</label>
-                         <select class="form-select">
-                           <option selected>nama jabatan (DATABASE)</option>
-                         </select>
-                       </div>
-
-                       <div class="mb-3">
-                         <label class="form-label">2. Kode Jabatan</label>
-                         <input type="text" class="form-control" placeholder="Kosongkan...">
-                       </div>
-
-                       <div class="mb-3">
-                         <label class="form-label">3. Unit Kerja</label>
-                         <div class="row g-2">
-                           <div class="col-md-6"><input type="text" class="form-control" placeholder="JPT Utama"></div>
-                           <div class="col-md-6"><input type="text" class="form-control" placeholder="Kosongkan..."></div>
-                           <div class="col-md-6"><input type="text" class="form-control" value="Sekda DKI Jakarta (Default)"></div>
-                           <div class="col-md-6">
-                             <select class="form-select">
-                               <option selected>PERANGKAT DAERAH (DATABASE)</option>
-                             </select>
-                           </div>
-                           <div class="col-md-6"><input type="text" class="form-control" value="database"></div>
-                           <div class="col-md-6">
-                             <select class="form-select">
-                               <option selected>NAMA JABATAN (DATABASE JABATAN)</option>
-                             </select>
-                           </div>
-                           <div class="col-md-6"><input type="text" class="form-control" placeholder="Kosongkan..."></div>
-                           <div class="col-md-6"><input type="text" class="form-control" placeholder="Kosongkan..."></div>
-                         </div>
-                       </div>
-
-                       <div class="mb-3">
-                         <label class="form-label">4. Ikhtisar Jabatan</label>
-                         <textarea class="form-control" rows="3" placeholder="Free text"></textarea>
-                       </div>
 
                        <div class="mb-3">
                          <label class="form-label">5. Kualifikasi Jabatan</label>
@@ -199,6 +226,9 @@
 
 
                </div>
+             </div>
+             <div class="text-end mt-1">
+               <button type="button" class="btn btn-success">Simpan</button>
              </div>
            </div>
          </div>
